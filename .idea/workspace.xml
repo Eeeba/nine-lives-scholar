@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d9c642-af4f-4f9c-b2d1-635358fa896a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/loading-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/loading-screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aquar\IdeaProjects\nine-lives-scholar\src\main\resources\com\ninelivesscholar\ninelivesscholar" />
+      <recent name="C:\Users\aquar\IdeaProjects\nine-lives-scholar\src\main\resources" />
+      <recent name="C:\Users\aquar\IdeaProjects\nine-lives-scholar\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.nine-lives-scholar [run]">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
@@ -116,7 +124,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>

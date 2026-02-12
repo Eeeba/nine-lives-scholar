@@ -1,20 +1,16 @@
 package com.ninelivesscholar.ninelivesscholar;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.ProgressBar;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.Objects;
@@ -33,7 +29,7 @@ import java.util.ResourceBundle;
             timeline.setOnFinished(event -> {
                 try {
                     mainMenuScene();
-                } catch (IOException e) {
+                } catch (IOException e){
                     throw new RuntimeException(e);
                 }
             });
@@ -41,7 +37,7 @@ import java.util.ResourceBundle;
 
         }
 
-        public void mainMenuScene () throws IOException {
+        public void mainMenuScene() throws IOException {
 
             Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("main-menu.fxml")));
             Stage stage = (Stage) pgBar.getScene().getWindow();
