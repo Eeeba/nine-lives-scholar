@@ -3,6 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -10,13 +11,49 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="535.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@sound_icon.png" />
+                     </image>
+                  </ImageView>
                   <ImageView fitHeight="130.0" fitWidth="130.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@cat_stare.png" />
                      </image></ImageView>
+                  <Text layoutX="140.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEVEL:" textAlignment="CENTER">
+                     <font>
+                        <Font name="Source Code Pro" size="16.0" />
+                     </font></Text>
+                  <Text layoutX="140.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOCUS POINTS: ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="140.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name goes here" textAlignment="CENTER">
+                     <font>
+                        <Font name="Source Code Pro" size="24.0" />
+                     </font>
+                  </Text>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="245.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cat_stare.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="50.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cat_stare.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="440.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cat_stare.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
         </items>
       </SplitPane>
    </children>
