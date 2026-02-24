@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.HelloController">
+   <children>
+      <Slider layoutX="110.0" layoutY="250.0" scaleX="2.0" scaleY="2.0" />
+      <Button layoutX="130.0" layoutY="300.0" mnemonicParsing="false" text="Apply">
+         <font>
+            <Font name="Source Code Pro" size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="40.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volume" textAlignment="CENTER">
+         <font>
+            <Font name="Source Code Pro" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="40.0" layoutY="300.0" mnemonicParsing="false" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Source Code Pro" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
