@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d9c642-af4f-4f9c-b2d1-635358fa896a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound-settings.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/MainMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/SoundSettingsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/LoadingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/loading-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/loading-screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound-settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound-settings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound_icon.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,6 +81,9 @@
   }
 }</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\aquar\.gradle\wrapper\dists\gradle-8.13-bin\5xuhj0ry160q40clulazy9h7d\gradle-8.13" javaHome="C:\Users\aquar\.jdks\temurin-21.0.10" gradleVersion="8.13" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>

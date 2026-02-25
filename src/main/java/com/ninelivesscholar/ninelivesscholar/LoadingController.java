@@ -16,7 +16,7 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-    public class HelloController implements Initializable {
+    public class LoadingController implements Initializable {
 
         @FXML
         private ProgressBar pgBar;
@@ -25,25 +25,29 @@ import java.util.ResourceBundle;
         public void initialize(URL url, ResourceBundle resourceBundle) {
 
             pgBar.setProgress(0);
-            Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(5), new KeyValue(pgBar.progressProperty(),1)));
+
+            Timeline timeline = new Timeline(
+                    new KeyFrame(Duration.seconds(5),
+                            new KeyValue(pgBar.progressProperty(), 1))
+            );
+
             timeline.setOnFinished(event -> {
                 try {
-                    mainMenuScene();
-                } catch (IOException e){
+                    switchScene("main-menu.fxml");
+                } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
             });
-            timeline.play();
 
+            timeline.play();
         }
 
-        public void mainMenuScene() throws IOException {
-
-            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("main-menu.fxml")));
+        private void switchScene(String fxml) throws IOException {
+            Parent root = FXMLLoader.load(
+                    Objects.requireNonNull(getClass().getResource(fxml))
+            );
             Stage stage = (Stage) pgBar.getScene().getWindow();
             stage.setScene(new Scene(root));
-            stage.show();
-
         }
 
     }

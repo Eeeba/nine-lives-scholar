@@ -5,18 +5,18 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.HelloController">
-   <children>
-      <ProgressBar fx:id="pgBar" layoutX="200.0" layoutY="300.0" prefWidth="200.0" progress="0.0" scaleX="2.0" scaleY="2.0" />
-      <Label layoutX="215.0" layoutY="230.0" text="Loading...">
-         <font>
-            <Font name="Source Code Pro" size="30.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@cat_stare.png" />
-         </image>
-      </ImageView>
-   </children>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ninelivesscholar.ninelivesscholar.LoadingController">
+    <children>
+        <ProgressBar fx:id="pgBar" layoutX="200.0" layoutY="300.0" prefWidth="200.0" progress="0.0" scaleX="2.0" scaleY="2.0" />
+        <Label layoutX="215.0" layoutY="230.0" text="Loading...">
+            <font>
+                <Font name="Source Code Pro" size="30.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@cat_stare.png" />
+            </image>
+        </ImageView>
+    </children>
 </AnchorPane>
