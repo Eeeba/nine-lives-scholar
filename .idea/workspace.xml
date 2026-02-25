@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34d9c642-af4f-4f9c-b2d1-635358fa896a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/SoundSettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/SoundSettingsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound-settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound-settings.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
