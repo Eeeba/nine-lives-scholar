@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Objects;
 
-public class MainMenuController extends LoadingController {
+public class MainMenuController{
 
     @FXML
     private void openSoundSettings(MouseEvent event) throws IOException {

@@ -4,8 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ninelivesscholar.ninelivesscholar.SoundSettingsController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.SoundSettingsController">
    <children>
       <Slider layoutX="110.0" layoutY="250.0" scaleX="2.0" scaleY="2.0" />
       <Button layoutX="130.0" layoutY="300.0" mnemonicParsing="false" text="Apply">
@@ -18,7 +17,7 @@
             <Font name="Source Code Pro" size="24.0" />
          </font>
       </Text>
-      <Button layoutX="40.0" layoutY="300.0" mnemonicParsing="false" text="Back" textAlignment="CENTER">
+      <Button layoutX="40.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#goBack" text="Back" textAlignment="CENTER">
          <font>
             <Font name="Source Code Pro" size="18.0" />
          </font>

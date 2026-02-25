@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
-            prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ninelivesscholar.ninelivesscholar.MainMenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.MainMenuController">
    <children>
       <SplitPane dividerPositions="0.436241610738255" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
         <items>
@@ -32,21 +31,21 @@
                   </Text>
                   <Text layoutX="140.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name goes here" textAlignment="CENTER">
                      <font>
-                        <Font name="Source Code Pro" size="24.0" />
+                        <Font name="Source Code Pro Bold" size="24.0" />
                      </font>
                   </Text>
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="245.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="225.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@cat_stare.png" />
+                        <Image url="@tasks.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="50.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@cat_stare.png" />
+                        <Image url="@clock.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="440.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
@@ -54,6 +53,21 @@
                         <Image url="@cat_stare.png" />
                      </image>
                   </ImageView>
+                  <Text layoutX="60.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pomodoro" textAlignment="CENTER">
+                     <font>
+                        <Font name="Source Code Pro Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="260.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Planner" textAlignment="CENTER">
+                     <font>
+                        <Font name="Source Code Pro Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="453.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Journal" textAlignment="CENTER">
+                     <font>
+                        <Font name="Source Code Pro Bold" size="18.0" />
+                     </font>
+                  </Text>
                </children></AnchorPane>
         </items>
       </SplitPane>
