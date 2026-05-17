@@ -30,16 +30,16 @@
                         <Font size="16.0" />
                      </font>
                   </Text>
-                  <Text layoutX="140.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name goes here" textAlignment="CENTER">
+                  <TextField layoutX="140.0" layoutY="35.0" promptText="Enter a name" style="-fx-background-color: black;">
                      <font>
-                        <Font name="Source Code Pro Bold" size="24.0" />
+                        <Font size="16.0" />
                      </font>
-                  </Text>
+                  </TextField>
                </children>
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: gray;">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="100.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="100.0" layoutY="30.0" onMouseClicked="#openPomodoroTimer" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@clock.png" />
                      </image>

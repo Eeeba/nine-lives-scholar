@@ -24,4 +24,14 @@ public class MainMenuController{
 
     }
 
+    @FXML
+    private void openPomodoroTimer(MouseEvent event) throws IOException {
+
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("pomodoro.fxml")));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(new Scene(root));
+        stage.show();
+
+    }
+
 }
