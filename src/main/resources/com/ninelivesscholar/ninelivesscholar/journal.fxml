@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFEF4D;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.JournalController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="332.0" layoutX="59.0" layoutY="34.0" stroke="#7d7d7d" strokeType="INSIDE" width="241.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="332.0" layoutX="300.0" layoutY="34.0" stroke="#7d7d7d" strokeType="INSIDE" width="241.0" />
+      <ImageView fitHeight="79.0" fitWidth="83.0" layoutX="79.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

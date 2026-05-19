@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d9c642-af4f-4f9c-b2d1-635358fa896a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/JournalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/journal.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/PomodoroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/PomodoroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ninelivesscholar/ninelivesscholar/SoundSettingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/loading-screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/loading-screen.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/main-menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/pomodoro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/pomodoro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/tasks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound-settings.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ninelivesscholar/ninelivesscholar/sound.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

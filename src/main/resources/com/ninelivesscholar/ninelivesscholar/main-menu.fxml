@@ -7,63 +7,100 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.MainMenuController">
-   <children>
-      <SplitPane dividerPositions="0.4362" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
-        <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: gray;">
-               <children>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="535.0" layoutY="20.0" onMouseClicked="#openSoundSettings" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@sound.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="130.0" fitWidth="130.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@cat_stare.png" />
-                     </image></ImageView>
-                  <Text layoutX="140.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEVEL:" textAlignment="CENTER">
-                     <font>
-                        <Font name="Source Code Pro" size="16.0" />
-                     </font></Text>
-                  <Text layoutX="140.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOCUS POINTS: ">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </Text>
-                  <TextField layoutX="140.0" layoutY="35.0" promptText="Enter a name" style="-fx-background-color: black;">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </TextField>
-               </children>
-            </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: gray;">
-               <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="100.0" layoutY="30.0" onMouseClicked="#openPomodoroTimer" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@clock.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@cat.png" />
-                     </image>
-                  </ImageView>
-                  <Text layoutX="132.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pomodoro" textAlignment="CENTER">
-                     <font>
-                        <Font name="Source Code Pro Bold" size="18.0" />
-                     </font>
-                  </Text>
-                  <Text layoutX="367.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Journal" textAlignment="CENTER">
-                     <font>
-                        <Font name="Source Code Pro Bold" size="18.0" />
-                     </font>
-                  </Text>
-               </children></AnchorPane>
-        </items>
-         <cursor>
-            <Cursor fx:constant="E_RESIZE" />
-         </cursor>
-      </SplitPane>
-   </children>
+
+    <children>
+
+        <SplitPane dividerPositions="0.4362" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
+
+            <items>
+
+                <!-- TOP PROFILE SECTION -->
+                <AnchorPane style="-fx-background-color: FFEF4D;">
+
+                    <children>
+
+                        <!-- USERNAME -->
+                        <TextField fx:id="nameField" layoutX="25.0" layoutY="35.0" prefWidth="200.0" promptText="Enter a name" style="-fx-background-color: white;">
+
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+
+                        </TextField>
+
+                        <!-- LEVEL -->
+                        <Text layoutX="25.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEVEL: 1">
+
+                            <font>
+                                <Font name="Source Code Pro" size="16.0" />
+                            </font>
+
+                        </Text>
+
+                        <!-- FOCUS POINTS -->
+                        <Text layoutX="25.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOCUS POINTS: 0">
+
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+
+                        </Text>
+
+                    </children>
+
+                </AnchorPane>
+
+                <!-- BOTTOM SECTION -->
+                <AnchorPane style="-fx-background-color: FFEF4D;">
+
+                    <children>
+
+                        <!-- POMODORO -->
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="100.0" layoutY="20.0" onMouseClicked="#openPomodoroTimer" pickOnBounds="true" preserveRatio="true">
+
+                            <image>
+                                <Image url="@clock.png" />
+                            </image>
+
+                        </ImageView>
+
+                        <!-- JOURNAL -->
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+
+                            <image>
+                                <Image url="@cat.png" />
+                            </image>
+
+                        </ImageView>
+
+                        <Text layoutX="132.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pomodoro">
+
+                            <font>
+                                <Font name="Source Code Pro Bold" size="18.0" />
+                            </font>
+
+                        </Text>
+
+                        <Text layoutX="367.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Journal">
+
+                            <font>
+                                <Font name="Source Code Pro Bold" size="18.0" />
+                            </font>
+
+                        </Text>
+
+                    </children>
+
+                </AnchorPane>
+
+            </items>
+
+            <cursor>
+                <Cursor fx:constant="E_RESIZE" />
+            </cursor>
+
+        </SplitPane>
+
+    </children>
+
 </AnchorPane>
