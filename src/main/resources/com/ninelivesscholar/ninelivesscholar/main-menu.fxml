@@ -65,7 +65,7 @@
                         </ImageView>
 
                         <!-- JOURNAL -->
-                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="20.0" onMouseClicked="#openStickerJournal" pickOnBounds="true" preserveRatio="true">
 
                             <image>
                                 <Image url="@cat.png" />

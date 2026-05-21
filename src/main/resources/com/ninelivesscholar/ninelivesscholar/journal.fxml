@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFEF4D;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ninelivesscholar.ninelivesscholar.JournalController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="332.0" layoutX="59.0" layoutY="34.0" stroke="#7d7d7d" strokeType="INSIDE" width="241.0" />
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="100.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image></ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="190.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="100.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="190.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="100.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="332.0" layoutX="300.0" layoutY="34.0" stroke="#7d7d7d" strokeType="INSIDE" width="241.0" />
-      <ImageView fitHeight="79.0" fitWidth="83.0" layoutX="79.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="345.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="345.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="430.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="430.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="430.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@meowl_sprite.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="515.0" layoutY="370.0" mnemonicParsing="false" text="&gt;">
+         <font>
+            <Font name="Source Code Pro Bold Italic" size="12.0" />
+         </font></Button>
+      <Button layoutX="485.0" layoutY="370.0" mnemonicParsing="false" text="&lt;">
+         <font>
+            <Font name="Source Code Pro Bold Italic" size="12.0" />
+         </font></Button>
+      <Button layoutX="65.0" layoutY="370.0" mnemonicParsing="false" onMouseClicked="#exitJournal" text="Exit Journal">
+         <font>
+            <Font name="Source Code Pro Bold Italic" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
